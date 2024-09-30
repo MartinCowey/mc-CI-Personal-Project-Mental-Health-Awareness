@@ -220,6 +220,9 @@ Key links to information
 ** Code bugs and fixes - Perplexity **
 
 01. Discussion with Perplexity about navbar
+02. Couldn't get the menu to style : <li><a href="#" alt="takes you to the you section">you</a></li> and realised the 'you text' etc needed to go in the a tag and not the list tag
+
+
 
 
 

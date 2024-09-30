@@ -8,6 +8,66 @@
 
 body {
     min-height: 100vh;
-    background-color: cyan;
+    background-color: antiquewhite;
     font-family: 'Poppins', sans-serif; 
+}
+
+/* navbar structure */
+nav {
+    background-color: #A8D5E2;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    font-size: 150%;
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #272932;
+}
+
+nav a:hover {
+    color: #104911;
+    background-color: #F9A620;
+    border-radius: 10px 0 10px 0;
+}
+
+
+/* why doesn't this put the logo icon to the left? */
+/* #logo-icon {
+    margin-right: auto;
+} */
+
+/* main logo styling */
+.logo {
+    height: 40px; 
+    width: auto;
+    /* vertical-align: middle; */
+    color: #272932;
+}
+
+/* Logo position - the nav ul justify-content has to be taken out to work */
+nav li:first-child {
+    margin-right: auto;
+    
+}
+
+/* Remove hover effect from the logo container */
+nav li:first-child a:hover {
+    background-color: transparent;   
 }
