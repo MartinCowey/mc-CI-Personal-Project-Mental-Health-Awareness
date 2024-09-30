@@ -14,6 +14,9 @@ You can safely delete this README.md file or change it for your own project. Ple
 
 * [Research links and notes](#research-and-links)
 
+<br>
+<br>
+<br>
 
 ## Introduction
 
@@ -39,7 +42,9 @@ Potential Features might Include:
 - Positive Affirmations: Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users.
 
 
-<hr>
+<br>
+<br>
+<br>
 
 
 ## UX
@@ -53,12 +58,19 @@ They are looking for responsive design that gives small information based on 2 s
 
 they want links to further advice and numbers of official avenues - if they immediate advice/help is needed.
 
+<br>
+<br>
+<br>
+
 ### Scope : 
 
 - Information rich : what is the relevant information pertinant to the user for this strategy to work effectively. 
 - Links to other information and key important data required for the support required
 - Key dates : Mental Health Awareness week 13 to 19 May 2024
 
+<br>
+<br>
+<br>
 
 ### Structure
 
@@ -68,7 +80,9 @@ Inovation Design -
 - Does the information present easy enough for the user to navigate, eg: MORE INFO buttons, and a information that could pop up on screen for further reading
 - Flow, is there a natural flow to the mobile experience
 
-
+<br>
+<br>
+<br>
 
 ### Skeleton:
 
@@ -115,7 +129,9 @@ Top            |  Bottom
 <img style="margin: 5px;" src="Docs/images/Screen 01.png"/>  |  <img style="margin: 5px;" src="Docs/images/Screen 02.png"/>
 
 
-
+<br>
+<br>
+<br>
 
 
 ### Surface :
@@ -126,8 +142,9 @@ Exploration            |  logo final
 :-------------------------:|:-------------------------:
 <img style="margin: 5px;" src="Docs/images/Mock design.webp"/>  |  <img style="margin: 5px;" src="Docs/images/mind heart you logo SM.webp"/>
 
+<br>
 
-### Colour :
+#### Colour :
 
 colour palette one            |  colour palette two
 :-------------------------:|:-------------------------:
@@ -142,9 +159,28 @@ Green  : 548C2F
 
 Button GOLD - More info : F9A620 : Green writing = #104911
 
+<br>
+
+#### Font choice :
+
+San-serif and bold clean design
+
+Poppins and Quicksand
+
+<img style="margin: 5px;" src="Docs/images/gt fonts.png"/>
 
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
 
+<br>
+
+#### Icons :
+
+<img style="margin: 5px;" src="Docs/images/gf ham x.png"/>
+
+<br>
+<br>
+<br>
 
 ## Future additions
 
@@ -158,7 +194,9 @@ An interactive element to the more info
 
 
 
-
+<br>
+<br>
+<br>
 
 
 ## Research and Links
