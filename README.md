@@ -1,10 +1,192 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome Martin Cowey,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
 You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+
+## CONTENTS
+
+* [Intro to the project - Project 4 : Mental Health Awareness](#introduction)
+* [UX](#ux)
+  * [Startegy]()
+
+* [Research links and notes](#research-and-links)
+
+
+## Introduction
+
+Project 4 : Mental Health Awareness
+
+Mental Health plays a big part in the future of our wellbeing and seems to be increasing in it's demands on the lives of more and more people. knowledge and understanding is increasing and moving in a positive direction however there is still a way to go to offer the needed support many require.
+
+> The idea for this project is to make a simple one page website for a client - a computer gaming business who want to offer guidance to it's employees
+
+External User’s Goal:
+
+The user seeks accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
+
+Site Owner’s Goal:
+
+The site owner wants to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
+
+Potential Features might Include:
+
+- Hero Section with Positive Messaging: A Bootstrap Jumbotron with an encouraging message about mental health, using a calming colour scheme and a simple background image.
+- Information Cards: Use Bootstrap’s card components to present mental health tips and common issues, providing a visually appealing way to organise content.
+- Resource Links: A grid layout for external links to mental health resources, styled with Bootstrap buttons to make them stand out.
+- Positive Affirmations: Use Bootstrap’s text utilities to include a section with uplifting quotes or messages to encourage users.
+
+
+<hr>
+
+
+## UX
+
+### Strategy :
+
+Gaming business wants to improve it's Mental Health information via a webpage 
+
+The company/support department is named 'MIND HEART YOU'
+They are looking for responsive design that gives small information based on 2 sections of which can be delved into deeper, providing more information.
+
+they want links to further advice and numbers of official avenues - if they immediate advice/help is needed.
+
+### Scope : 
+
+- Information rich : what is the relevant information pertinant to the user for this strategy to work effectively. 
+- Links to other information and key important data required for the support required
+- Key dates : Mental Health Awareness week 13 to 19 May 2024
+
+
+### Structure
+
+Inovation Design - 
+
+- Establishing links to internal sections, do they work? Do they link correctly? 
+- Does the information present easy enough for the user to navigate, eg: MORE INFO buttons, and a information that could pop up on screen for further reading
+- Flow, is there a natural flow to the mobile experience
+
+
+
+### Skeleton:
+
+Mock ups 
+
+#### mobile view
+
+600px <
+
+Top            |  one       |   two
+:-------------------------:|:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/images/Mobile 1.png"/>  |  <img style="margin: 5px;" src="Docs/images/Mobile 2.png"/>  |  <img style="margin: 5px;" src="Docs/images/Mobile 3.png"/>
+
+three            |  Bottom       
+:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/images/Mobile 4.png"/>  |  <img style="margin: 5px;" src="Docs/images/Mobile 5.png"/> 
+
+
+
+
+
+#### tablet view
+
+600px > 992px
+
+Top            |  one       |   two
+:-------------------------:|:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/images/tablet 1.png"/>  |  <img style="margin: 5px;" src="Docs/images/tablet 2.png"/>  |  <img style="margin: 5px;" src="Docs/images/tablet 3.png"/>
+
+three            |  Bottom       
+:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/images/tablet 4.png"/>  |  <img style="margin: 5px;" src="Docs/images/tablet 5.png"/> 
+
+
+
+
+
+#### screen view
+
+992px > Large size
+
+Top            |  Bottom
+:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/images/Screen 01.png"/>  |  <img style="margin: 5px;" src="Docs/images/Screen 02.png"/>
+
+
+
+
+
+### Surface :
+
+logo design
+
+Exploration            |  logo final
+:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/images/Mock design.webp"/>  |  <img style="margin: 5px;" src="Docs/images/mind heart you logo SM.webp"/>
+
+
+### Colour :
+
+colour palette one            |  colour palette two
+:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/images/Screenshot 2024-09-27 at 15.45.20.png"/>  |  <img style="margin: 5px;" src="Docs/images/Screenshot 2024-09-27 at 15.45.55.png"/>
+
+Fitting in with colours for a more calming and user friendly experience, but with some contrast for clear distinction:
+
+Dark : 272932 
+Yellow  : FFD449
+Blue : A8D5E2
+Green  : 548C2F
+
+Button GOLD - More info : F9A620 : Green writing = #104911
+
+
+
+
+
+## Future additions
+
+Icons that appear on hover instead of the words with an animation
+
+moving image instead of a static image on the hero section
+
+An interactive element to the more info
+
+
+
+
+
+
+
+
+## Research and Links
+
+UX Story and outline for the main Ideas for the content - chatGPT
+
+Key links to information
+
+[rethink.org](https://www.rethink.org/campaigns-and-policy/awareness-days-and-events/mental-health-awareness-week/?gad_source=1&gclid=Cj0KCQjwmOm3BhC8ARIsAOSbapWYbyV8M1TNSDiZ56rNQu2D8YKMSeDKIJxOvUTKXL2JRXwjV1EGRJ8aAp5zEALw_wcB)
+
+[nhs.co.uk](https://www.nhs.uk/nhs-services/mental-health-services/)
+
+[mind.org](https://www.mind.org.uk/)
+
+[World Health Organisation](https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response)
+
+
+
+
+
+** Code bugs and fixes - Perplexity **
+
+01. Discussion with Perplexity about navbar
+
+
+
+
+
 
 ## Gitpod Reminders
 
