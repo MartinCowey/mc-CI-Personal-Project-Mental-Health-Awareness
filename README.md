@@ -10,8 +10,12 @@ You can safely delete this README.md file or change it for your own project. Ple
 
 * [Intro to the project - Project 4 : Mental Health Awareness](#introduction)
 * [UX](#ux)
-  * [Startegy]()
-
+  * [Startegy](#strategy-)
+  * [Scope](#scope-)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+  * [Surface](#surface-)
+* [Future Improvements](#future-additions)
 * [Research links and notes](#research-and-links)
 
 <br>
