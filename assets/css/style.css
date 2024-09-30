@@ -47,6 +47,18 @@ nav a:hover {
     border-radius: 10px 0 10px 0;
 }
 
+/* Pop out menu for repsonive view */
+.dropdown-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 250px;
+    background: blue;
+    flex-direction: column;
+    z-index: 2;
+}
+
 
 /* why doesn't this put the logo icon to the left? */
 /* #logo-icon {
@@ -70,4 +82,21 @@ nav li:first-child {
 /* Remove hover effect from the logo container */
 nav li:first-child a:hover {
     background-color: transparent;   
+}
+
+
+
+
+@media(max-width: 992px) {
+   
+
+    
+
+
+
+}
+
+@media(max-width: 400px) {
+    
+
 }
