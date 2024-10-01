@@ -120,19 +120,23 @@ nav li:first-child a:hover {
 .main-image img{
     width: 100%;
     height: auto;
+    margin-bottom: 40px;
     
 }
-.hero {
+/* .hero {
     display: flex;
-}
+} */
 
 /* fixed the h2 text to go in the middle of the image */
 .main-image h2 {
     position: absolute;
     text-align: center;
-    top: 45%;
+    top: 40%;
+    left: 10%;
     color: #FFD449;
-    padding: 20px;
+    /* padding: 20px; */
+    width: 80%;
+    
 
 }
 
@@ -159,10 +163,10 @@ nav li:first-child a:hover {
  flex-direction: column;
  justify-content: space-around;
  align-items: center;
-
- border: 1px solid #272932;
+ box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+ /* border: 1px solid #272932; */
  margin: 10px;
- padding: 5px;
+ padding: 20px;
  text-align: center;
  height: 100%;
 }
@@ -199,6 +203,41 @@ nav li:first-child a:hover {
     text-align: justify;
 }
 
+/* contact details */
+.contact-details {
+    width: 100%;
+    height: 400px;
+    background: #FFD449;
+    margin-top: 50px;
+    flex: 1;   
+}
+
+
+/* footer */
+.footer-icons {
+    width: 100%;
+    background: #272932;
+}
+
+.footer-icons ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    
+}
+
+.footer-icons ul a {
+    height: 100%;
+    text-decoration: none;
+    /* flex-direction: row;
+    justify-content: space-around; */
+    font-size: 150%;
+    color: #FFD449;
+}
+
 /* button for more info with pop up */
 
 .info-button {
@@ -214,7 +253,8 @@ nav li:first-child a:hover {
   }
   
   .popup {
-    display: none;
+    visibility: hidden;
+    /* display: none; */
     position: fixed;
     top: 20;
     left: 0;
@@ -243,6 +283,10 @@ nav li:first-child a:hover {
     font-weight: bold;
     cursor: pointer;
   }
+
+  .popup.show {
+    display: block;
+  }
   
   .close-btn:hover {
     color: #104911;
@@ -254,13 +298,13 @@ nav li:first-child a:hover {
     .dropdown-menu {
         display: none;
     }
-    .main-image img{
+    /* .main-image img{
         size: fluid;
         width: 100%;
         height: auto;
         
-    }
-
+    } */
+/* this puts the image and the cards in a line without the cards going underneath */
     .main-image img {
         flex: 1;
     }
@@ -329,17 +373,17 @@ nav li:first-child a:hover {
     .main {
         height: 300px;
     }
-    .main-image img{
+    .main-image {
         display: none;
         
     }
 
-    .main-image h2 {
+    /* .main-image h2 {
         position: absolute;
         text-align: center;
         color: #FFD449;
         padding: 20px;
         width: auto;
-}
+} */
 
 }
