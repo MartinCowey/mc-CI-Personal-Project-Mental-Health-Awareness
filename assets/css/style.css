@@ -128,7 +128,8 @@ nav li:first-child a:hover {
     display: flex;
 }
 
-.hero-title {
+/* fixed the h2 text to go in the middle of the image */
+.main-image h2 {
     position: absolute;
     text-align: center;
     top: 45%;
@@ -150,14 +151,17 @@ nav li:first-child a:hover {
 .content {
  display: flex;
  width: 100%;
- justify-content: space-around;
+ justify-content: center;
  align-items: center;
  
 }
 
 .content div {
- /* justify-content: space-around;
- align-items: center; */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+
  border: 1px solid #272932;
  margin: 10px;
  padding: 5px;
@@ -206,6 +210,8 @@ nav li:first-child a:hover {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    /* margin-top: auto;
+    align-self: center; */
   }
   
   .popup {
