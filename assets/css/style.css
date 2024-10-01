@@ -108,9 +108,7 @@ nav li:first-child a:hover {
     background-color: transparent;   
 }
 
-.hero {
-    display: flex;
-}
+
 
 /* section 1 - image */
 .main-image {
@@ -168,6 +166,7 @@ nav li:first-child a:hover {
  text-align: center;
  height: 100%;
 }
+
 .content h2 {
     text-transform: uppercase;
     margin: 20px 0 20px 0;
@@ -261,6 +260,14 @@ nav li:first-child a:hover {
         height: auto;
         
     }
+
+    .main-image img {
+        flex: 1;
+    }
+
+    .container {  
+        flex: 1;
+    }
     
 }
 
@@ -275,10 +282,64 @@ nav li:first-child a:hover {
     .dropdown-menu {
         display: none;
     }
+
+    /* this arranges the 3 cards in the section with flex */
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    /* margin-top: 220px;    */
+   }
+   .content .one {
+    margin-bottom: 40px;
+   }
+   .content .two {
+    margin-bottom: 40px;
+   }
+   .content .two {
+    margin-bottom: 40px;
+   }
+
+   
+
+   /* .main-image h2 {
+    position: absolute;
+    text-align: center;
+    color: #FFD449;
+    padding: 20px;
+    height: 300px;
+    width: auto;
+
+} */
+.spacing {
+    display: flex;
+    flex-direction: column;
+    
+}
+   
 }
 
 @media(max-width: 400px) {
     .dropdown-menu {
         width: 100%;
     }
+
+    .main {
+        height: 300px;
+    }
+    .main-image img{
+        display: none;
+        
+    }
+
+    .main-image h2 {
+        position: absolute;
+        text-align: center;
+        color: #FFD449;
+        padding: 20px;
+        width: auto;
+}
+
 }

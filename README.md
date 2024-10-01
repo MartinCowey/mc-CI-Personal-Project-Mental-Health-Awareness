@@ -17,6 +17,7 @@ You can safely delete this README.md file or change it for your own project. Ple
   * [Surface](#surface-)
 * [Future Improvements](#future-additions)
 * [Research links and notes](#research-and-links)
+* [Bugs and fixes](#bugs-and-fixes)
 
 <br>
 <br>
@@ -219,12 +220,24 @@ Key links to information
 
 
 
-
+## Bugs and fixes
 
 ** Code bugs and fixes - Perplexity **
 
 01. Discussion with Perplexity about navbar
 02. Couldn't get the menu to style : <li><a href="#" alt="takes you to the you section">you</a></li> and realised the 'you text' etc needed to go in the a tag and not the list tag
+
+Felt a little like have an idea, write in some code, works, add some more and then doesn't work! Then a period of trying to solve the issues which then lead to deeper knock on effects. I would then resort to W3c, MDN, stack overflow or soometimes a converstaion with AI [Perplexity] to figure out what I had done...and more specifically how to solve it.
+
+I had many little wins on this that sort of felt more like being told the answer than solving something directly. However one that has stood out as a real win:
+
+Having got very far into the process and trying to figure out a media quesry for why the hero [main-image img] was overlapping the .content. I was coming to many brick walls and code changes that I was losing ground and then I had an epiphany and decided to use flex: 1 on each of the .main-image img and the .content after using dev tools. At first this didn't work, but on more inspection I discovered multiple instances of css for .main-image img that where obviously creating specificity issues! This solved my issue! I'm so proud as this at last feels like i have done something in this project that required my input and problem solving [directly]. Especially as Flex has been tricky to understand!
+
+<img style="margin: 5px;" src="Docs/images/Bug 1.png"/>
+
+<img style="margin: 5px;" src="Docs/images/Bug 2.png"/>
+
+<img style="margin: 5px;" src="Docs/images/Bug 3.png"/>
 
 
 
