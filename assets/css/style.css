@@ -9,7 +9,11 @@
 body {
     min-height: 100vh;
     /* background-color: antiquewhite; */
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+}
+.page-centred {
+    margin: auto;
+    max-width: 1400px;
 }
 
 h2 {
@@ -134,12 +138,122 @@ nav li:first-child a:hover {
 }
 
 
+/* section 2 boxes with info */
+.container {
+    margin: auto;
+    display: flex;
+    width: 90%;
+    margin-top: 50px;
+}
+
+/* this arranges the 3 cards in the section with flex */
+.content {
+ display: flex;
+ width: 100%;
+ justify-content: space-around;
+ align-items: center;
+ 
+}
+
+.content div {
+ /* justify-content: space-around;
+ align-items: center; */
+ border: 1px solid #272932;
+ margin: 10px;
+ padding: 5px;
+ text-align: center;
+ height: 100%;
+}
+.content h2 {
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+}
+
+.one {
+    flex: 1 1 auto;
+
+}
+.logo-card {
+    max-width: 75px;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.two {
+    flex: 1 1 auto;
+    background-color: #A8D5E2;
+    
+}
+
+.three {
+    flex: 1 1 auto;
+    background-color: #548C2F;
+    
+}
+
+.content div p {
+    text-align: justify;
+}
+
+/* button for more info with pop up */
+
+.info-button {
+    padding: 10px 20px;
+    background-color: #F9A620;
+    color: #104911;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 20;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    
+    
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .close-btn {
+    color: #104911;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: #104911;
+  }
 
 
 /* screen width with hide-out and show elements */
 @media(min-width: 992px) {
     .dropdown-menu {
         display: none;
+    }
+    .main-image img{
+        size: fluid;
+        width: 100%;
+        height: auto;
+        
     }
     
 }
