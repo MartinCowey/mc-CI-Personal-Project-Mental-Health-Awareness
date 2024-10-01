@@ -8,8 +8,12 @@
 
 body {
     min-height: 100vh;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     font-family: 'Poppins', sans-serif; 
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif; 
 }
 
 /* navbar structure */
@@ -17,6 +21,7 @@ nav {
     background-color: #A8D5E2;
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 
 nav ul {
@@ -97,6 +102,35 @@ nav li:first-child {
 /* Remove hover effect from the logo container */
 nav li:first-child a:hover {
     background-color: transparent;   
+}
+
+.hero {
+    display: flex;
+}
+
+/* section 1 - image */
+.main-image {
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+.main-image img{
+    width: 100%;
+    height: auto;
+    
+}
+.hero {
+    display: flex;
+}
+
+.hero-title {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    color: #FFD449;
+    padding: 20px;
+
 }
 
 
