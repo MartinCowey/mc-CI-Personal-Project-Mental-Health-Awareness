@@ -229,13 +229,33 @@ nav li:first-child a:hover {
 }
 
 
+/* video */
+
+.video-container {
+    background: #272932;
+    color: #FFD449;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.video {
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.video iframe {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 /* contact details */
 .bottom-info {
     width: 100%;
     height: 100%;
     background: #FFD449;
-    margin-top: 50px;
+    margin-top: 0px;
     flex: 1;   
 }
 
@@ -247,10 +267,13 @@ nav li:first-child a:hover {
     padding: 50px
 }
 
+.phone {
+    margin-bottom: 50px;
+}
+
 .address {
     margin-top: 50px;
 }
-
 
 
 
