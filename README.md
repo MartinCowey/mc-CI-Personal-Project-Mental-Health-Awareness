@@ -19,6 +19,8 @@ You can safely delete this README.md file or change it for your own project. Ple
 * [Research links and notes](#research-and-links)
 * [Bugs and fixes](#bugs-and-fixes)
 * [Validation](#validation)
+  * [css validation](#css-validation)
+  * [Lighthouse](#lighthouse)
 
 
 <br>
@@ -189,6 +191,18 @@ Poppins and Quicksand
 <br>
 <br>
 
+## Planning
+
+Using Github Project for a kanban checklist:
+
+Day 01           |  Day 02      |   Day 03
+:-------------------------:|:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-09-30 at 17.54.44.png"/>  |  <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-01 at 09.00.20.png"/>  |  <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 11.20.50.png"/>
+
+<br>
+<br>
+<br>
+
 ## Future additions
 
 - Icons that appear on hover instead of the words with an animation
@@ -262,7 +276,7 @@ There are some errors or discrepancies with the code that come from a few issues
  - Also it comes up with a few errors for missing links on the social media icons, however this is becasue I don't want the words to appear such as 'Facebook'.
  - And also some contrast issues with the colour combinations, mainly the yellow and white. This could be changed with the darker colour instead of yellow. However i wanted this to be a little more cohesive with the colour scheme but also stand out.
 
- <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 12.33.17.png"/>
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 12.33.17.png"/>
 
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 12.26.30.png"/>
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 12.26.30.png"/>
@@ -281,11 +295,61 @@ There are some errors or discrepancies with the code that come from a few issues
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.22.15.png"/>
 
 
+## CSS Validation
+
+<br>
+
+Only a couple of obvious errors for css:
+
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.28.47.png"/>
+
+I simply removed these from the code as they weren't needed!
+
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.30.20.png"/>
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.30.43.png"/>
+
+<br>
+
+## Responsive
 
 
+Mobile:
+
+one           |  two       
+:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.37.05.png"/>  |  <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.37.12.png"/>  
 
 
+Tablet :
 
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.36.52.png"/>
+
+Screen :
+
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.31.40.png"/>
+
+Less than 400:
+
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.37.48.png"/>
+
+<br>
+<br>
+
+## Lighthouse
+
+Some issues with loading speeds on mobile, these issues seems to be issues due to the beginning and not fully understanding the sizing of original material. There are some issues with a javascript toggle button which I didn't use and also couldn't take out at this late stage due to it messing my layout.
+
+screen            |  mobile       |   mobile
+:-------------------------:|:-------------------------:|:-------------------------:
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.48.35.png"/>  |  <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.49.36.png"/>  |  <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.49.54.png"/>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Gitpod Reminders
 

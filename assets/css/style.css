@@ -155,7 +155,6 @@ nav li:first-child a:hover {
     height: 60px;
     color: white;
     background-color: #272932;
-    border: 1 solid #272932;
     border-radius: 10px;
 
 }
@@ -321,7 +320,6 @@ nav li:first-child a:hover {
     /* display: none; */
     position: fixed;
     top: 20;
-    left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.5);
