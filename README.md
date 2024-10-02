@@ -18,7 +18,7 @@ You can safely delete this README.md file or change it for your own project. Ple
 * [Future Improvements](#future-additions)
 * [Research links and notes](#research-and-links)
 * [Bugs and fixes](#bugs-and-fixes)
-* [Validation]
+* [Validation](#validation)
 
 
 <br>
@@ -258,7 +258,7 @@ Having got very far into the process and trying to figure out a media quesry for
 
 There are some errors or discrepancies with the code that come from a few issues:
 
- - I added javascript pop outs for the more info and unfortuantely at this time can't remove them due to a knock on effect. However these have left some areas such as 'no links' as errors
+ - I added javascript pop outs for the drop down menu and I'm not 100% usre what to add into this part
  - Also it comes up with a few errors for missing links on the social media icons, however this is becasue I don't want the words to appear such as 'Facebook'.
  - And also some contrast issues with the colour combinations, mainly the yellow and white. This could be changed with the darker colour instead of yellow. However i wanted this to be a little more cohesive with the colour scheme but also stand out.
 
@@ -266,6 +266,19 @@ There are some errors or discrepancies with the code that come from a few issues
 
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 12.26.30.png"/>
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 12.26.30.png"/>
+
+
+- Changed the colour of the call to action from yellow to black 
+
+- Also a lot of errors concerning white space in the Validator especially concerning filenames or image names.
+
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.10.24.png"/>
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.17.35.png"/>
+
+- Corrected the alt tag errors in the html, there were a lot of these!
+
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.22.08.png"/>
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.22.15.png"/>
 
 
 
