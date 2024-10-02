@@ -6,6 +6,8 @@ This is the Code Institute student template for Gitpod. We have preinstalled all
 
 You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
 
+<br>
+<br>
 ## CONTENTS
 
 * [Intro to the project - Project 4 : Mental Health Awareness](#introduction)
@@ -96,7 +98,8 @@ Inovation Design -
 ### Skeleton:
 
 Mock ups 
-
+<br>
+<br>
 #### mobile view
 
 600px <
@@ -110,7 +113,8 @@ three            |  Bottom
 <img style="margin: 5px;" src="Docs/images/Mobile 4.png"/>  |  <img style="margin: 5px;" src="Docs/images/Mobile 5.png"/> 
 
 
-
+<br>
+<br>
 
 
 #### tablet view
@@ -126,7 +130,8 @@ three            |  Bottom
 <img style="margin: 5px;" src="Docs/images/tablet 4.png"/>  |  <img style="margin: 5px;" src="Docs/images/tablet 5.png"/> 
 
 
-
+<br>
+<br>
 
 
 #### screen view
@@ -245,7 +250,8 @@ Key links to information for the Mental Health information
 
 [World Health Organisation](https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response)
 
-
+<br>
+<br>
 
 ## Bugs and fixes
 
@@ -266,6 +272,8 @@ Having got very far into the process and trying to figure out a media quesry for
 
 <img style="margin: 5px;" src="Docs/images/Bug 3.png"/>
 
+<br>
+<br>
 
 ## Validation
 
@@ -294,6 +302,8 @@ There are some errors or discrepancies with the code that come from a few issues
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.22.08.png"/>
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.22.15.png"/>
 
+<br>
+<br>
 
 ## CSS Validation
 
@@ -309,9 +319,12 @@ I simply removed these from the code as they weren't needed!
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.30.43.png"/>
 
 <br>
+<br>
 
 ## Responsive
 
+<br>
+<br>
 
 Mobile:
 
@@ -319,14 +332,22 @@ one           |  two
 :-------------------------:|:-------------------------:
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.37.05.png"/>  |  <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.37.12.png"/>  
 
+<br>
+<br>
 
 Tablet :
 
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.36.52.png"/>
 
+<br>
+<br>
+
 Screen :
 
 <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 13.31.40.png"/>
+
+<br>
+<br>
 
 Less than 400:
 
