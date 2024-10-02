@@ -18,6 +18,8 @@ You can safely delete this README.md file or change it for your own project. Ple
 * [Future Improvements](#future-additions)
 * [Research links and notes](#research-and-links)
 * [Bugs and fixes](#bugs-and-fixes)
+* [Validation]
+
 
 <br>
 <br>
@@ -189,11 +191,17 @@ Poppins and Quicksand
 
 ## Future additions
 
-Icons that appear on hover instead of the words with an animation
+- Icons that appear on hover instead of the words with an animation
 
-moving image instead of a static image on the hero section
+- moving image instead of a static image on the hero section
 
-An interactive element to the more info
+- An interactive element to the more info, I tried Javascript but had issues with the way a pop out screen would appear, and ultimately this threw a lot of my alignment out.
+
+- resizing the cards for responsiveness, they feel a little clunky at the momnet
+
+- Also becasue I coded out the navbar I was left with issues on positioning the hero image - this could be sorted out with a little more time
+
+- Adding in meditation functions, maybe videos or audio for guided meditation
 
 
 
@@ -208,7 +216,12 @@ An interactive element to the more info
 
 UX Story and outline for the main Ideas for the content - chatGPT
 
-Key links to information
+Various videos and websites included in developing the code and alos fixing bugs:
+Youtube, PerplexityAI, Chatgpt, W3c-schools, Stack overflow, geeks for geeks, she codes, MDN documentation.
+I relied heavily on searching and finding the information at this stage rather than peer involvement - due to their work schedule and commitments they had on their own projects. I did rely on a few peers for initial delpoyment and a check in. In the future a would seek more discourse with colleagues on best working practices and solving problems.
+At this foundation stage I felt more benficial to explore my own learning adn practical application, especially solving problems. 
+
+Key links to information for the Mental Health information
 
 [rethink.org](https://www.rethink.org/campaigns-and-policy/awareness-days-and-events/mental-health-awareness-week/?gad_source=1&gclid=Cj0KCQjwmOm3BhC8ARIsAOSbapWYbyV8M1TNSDiZ56rNQu2D8YKMSeDKIJxOvUTKXL2JRXwjV1EGRJ8aAp5zEALw_wcB)
 
@@ -224,7 +237,7 @@ Key links to information
 
 ** Code bugs and fixes - Perplexity **
 
-01. Discussion with Perplexity about navbar
+01. Discussion with Perplexity about navbar - this took up a lot more time than anticiapated, simply due to my knwoeldge gaps. I had to rely a lot on tutorial type discussion, however the information [even Javascript] did make sense and even though I didn't come up with the code itself I had a good understanding of what it meant or did.
 02. Couldn't get the menu to style : <li><a href="#" alt="takes you to the you section">you</a></li> and realised the 'you text' etc needed to go in the a tag and not the list tag
 
 Felt a little like have an idea, write in some code, works, add some more and then doesn't work! Then a period of trying to solve the issues which then lead to deeper knock on effects. I would then resort to W3c, MDN, stack overflow or soometimes a converstaion with AI [Perplexity] to figure out what I had done...and more specifically how to solve it.
@@ -238,6 +251,21 @@ Having got very far into the process and trying to figure out a media quesry for
 <img style="margin: 5px;" src="Docs/images/Bug 2.png"/>
 
 <img style="margin: 5px;" src="Docs/images/Bug 3.png"/>
+
+
+## Validation
+
+
+There are some errors or discrepancies with the code that come from a few issues:
+
+ - I added javascript pop outs for the more info and unfortuantely at this time can't remove them due to a knock on effect. However these have left some areas such as 'no links' as errors
+ - Also it comes up with a few errors for missing links on the social media icons, however this is becasue I don't want the words to appear such as 'Facebook'.
+ - And also some contrast issues with the colour combinations, mainly the yellow and white. This could be changed with the darker colour instead of yellow. However i wanted this to be a little more cohesive with the colour scheme but also stand out.
+
+ <img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 12.33.17.png"/>
+
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 12.26.30.png"/>
+<img style="margin: 5px;" src="Docs/validation/Screenshot 2024-10-02 at 12.26.30.png"/>
 
 
 
