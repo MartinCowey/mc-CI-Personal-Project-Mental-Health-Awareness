@@ -417,6 +417,11 @@ nav li:first-child a:hover {
    
 }
 
+@media(max-width: 600px) {
+    .main-image h2 { 
+        top: 30%;
+    }
+}
 
 
 @media(max-width: 400px) {
@@ -433,7 +438,7 @@ nav li:first-child a:hover {
     }
     .call-to-action div {
     
-        margin-top: 60px;
+        margin-top: 50px;
         
     }
 
